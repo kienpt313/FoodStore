@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/productfoodname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="namefood"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="Price"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:id="@+id/productfoodprice"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Date"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/productfoodate"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Time"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/productfoodtime"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="ToTal"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:id="@+id/productfoodcount"
+            />
+
+        <ImageView
+            android:id="@+id/deletecard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <TableRow
+            android:layout_below="@id/deletecard"
+            android:id="@+id/hr1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

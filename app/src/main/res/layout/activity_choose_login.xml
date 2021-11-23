@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLogin">
+
+    <Button
+        android:id="@+id/Customer"
+        android:layout_width="229dp"
+        android:layout_height="55dp"
+        android:text="I'm Customer"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/Admin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795" />
+
+    <Button
+        android:id="@+id/Admin"
+        android:layout_width="230dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="288dp"
+        android:text="Admin"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        android:text="Let's go"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#E91E63"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/Customer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+</androidx.constraintlayout.widget.ConstraintLayout>

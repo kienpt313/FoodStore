@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/foodinviewAD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Name Food"
+            android:textSize="20dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/totalinviewAD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodinviewAD"
+            android:layout_marginTop="25dp"
+            android:text="Total"
+            android:textSize="20dp"
+            android:layout_marginLeft="2dp"/>
+        <TableRow
+            android:layout_below="@id/totalinviewAD"
+            android:id="@+id/hr1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

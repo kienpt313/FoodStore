@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471740781108",
+    "firebase_url": "https://cooking-recipe-7ef5c-default-rtdb.firebaseio.com",
+    "project_id": "cooking-recipe-7ef5c",
+    "storage_bucket": "cooking-recipe-7ef5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471740781108:android:d4504d88a58b2aee203061",
+        "android_client_info": {
+          "package_name": "com.example.cookingrecipegood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471740781108-h09q8tbj3c4iaedpcb8071na18la9kj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookingrecipegood",
+            "certificate_hash": "a408f70a36f8384e47a3b3dd549870325d54a2e7"
+          }
+        },
+        {
+          "client_id": "471740781108-0me6sduadui3jsttsuhrr5v5fr55qft5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfygQZrVhP4zbPY32rqaxK-ALOcz_hAmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471740781108-0me6sduadui3jsttsuhrr5v5fr55qft5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

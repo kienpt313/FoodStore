@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cooking Recipe Good</string>
+    <string-array name="City">
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Hồ Chí Minh</item>
+    </string-array>
+</resources>

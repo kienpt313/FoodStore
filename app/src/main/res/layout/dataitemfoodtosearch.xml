@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/Imagevieworderfoodsearch"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Title..."
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:id="@+id/nameorderfoodsearch"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Price"
+            android:maxLines="2"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/black"
+            android:id="@+id/priceorderfoodsearch"
+            />
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
